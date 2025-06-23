@@ -3,6 +3,7 @@
 1. 요구사항 역분석하기
    - 주사위 숫자만큼 이동하여 도착할 위치를 계산하는 판단 조건과 변수 의미를 정리하여 기록하기
    - nextposition 함수를 확인하면
+
    
 func nextPosition(current: Int, _ dice: Int) -> Int {
 
