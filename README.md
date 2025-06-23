@@ -5,13 +5,21 @@
    - nextposition 함수를 확인하면
    
 func nextPosition(current: Int, _ dice: Int) -> Int {
+
     let next = current + dice
+    
     if (next == 4) {
+    
         return dice + 10
+        
     }
+    
     else if (next == 8) {
+    
         return dice + 22
+        
     }
+    
     else if (next == 28) {
         return dice + 48
     }
