@@ -5,7 +5,9 @@
    - nextposition 함수를 확인하면
 
    
-func nextPosition(current: Int, _ dice: Int) -> Int {
+func nextPosition(current: Int, _ dice: Int) -> 
+
+Int {
 
     let next = current + dice
     
