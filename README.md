@@ -5,9 +5,7 @@
    - nextposition 함수를 확인하면
 
    
-func nextPosition(current: Int, _ dice: Int) -> 
-
-Int {
+func nextPosition(current: Int, _ dice: Int) -> Int {
 
     let next = current + dice
     
@@ -56,30 +54,55 @@ Int {
 그러므로 위에 있는 코드에서
 
 func nextPosition(current: Int, _ dice: Int) -> Int {
+
     let next = current + dice
+    
     if (next == 4) {
+    
         return dice + 10
-    }
-    else if (next == 8) {
-        return dice + 22
-    }
-    else if (next == 28) {
-        return dice + 48
-    }
-    else if (next == 21) {
-        return dice + 21
-    }
-    else if (next == 50) {
-        return dice + 17
-    }
-    else if (next == 71) {
-        return dice + 21
-    }
-    else if (next == 80) {
-        return dice + 19
+        
     }
     
+    else if (next == 8) {
+    
+        return dice + 22
+        
+    }
+    
+    else if (next == 28) {
+    
+        return dice + 48
+        
+    }
+    
+    else if (next == 21) {
+    
+        return dice + 21
+        
+    }
+    
+    else if (next == 50) {
+    
+        return dice + 17
+        
+    }
+    
+    else if (next == 71) {
+    
+        return dice + 21
+        
+    }
+    
+    else if (next == 80) {
+    
+        return dice + 19
+        
+    }
+    
+
+   
     return dice;
+    
 }
 로 바뀌어야한다.
 
@@ -92,4 +115,7 @@ func nextPosition(current: Int, _ dice: Int) -> Int {
 
 
 2. 새로운 요구사항 추가하기
+3. 
    - 뱀 동작이 생겼을 때
+
+기존의 
